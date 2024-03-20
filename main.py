@@ -3,7 +3,7 @@ import cv2  # Импортируем библиотеку OpenCV для рабо
 import cvzone  # Импортируем библиотеку cvzone для дополнительных функций работы с изображениями
 
 # Инициализируем захват видеопотока с камеры
-cap = cv2.VideoCapture("/home/denis/PycharmProjects/MindSetTestWork/data/video/443_motorway_with_cars_1.mp4")
+cap = cv2.VideoCapture("")
 # Загружаем модель YOLO
 models = YOLO("../YoloModels/yolov8n.pt")
 
